@@ -14,7 +14,7 @@ export default function Portfolio() {
       {/* Header */}
       <header className="sticky top-0 z-50 bg-background/80 backdrop-blur-sm">
         <div className="container mx-auto px-4 py-4 flex justify-between items-center">
-          <a href="#" className="text-2xl font-bold">Jane Doe</a>
+          <a href="#" className="text-2xl font-bold">Taufique Khan</a>
           <nav className="hidden md:flex space-x-8">
             <a href="#home" className="hover:text-primary transition-colors">Home</a>
             <a href="#projects" className="hover:text-primary transition-colors">Projects</a>
@@ -41,8 +41,8 @@ export default function Portfolio() {
       {/* Hero Section */}
       <section id="home" className="py-20 md:py-32">
         <div className="container mx-auto px-4 text-center">
-          <h1 className="text-4xl md:text-6xl font-bold mb-6">Hi, I'm Jane Doe</h1>
-          <p className="text-xl md:text-2xl mb-8">A passionate full-stack developer crafting beautiful web experiences</p>
+          <h1 className="text-4xl md:text-6xl font-bold mb-6">Hi, I'm Taufique Khan</h1>
+          <p className="text-xl md:text-2xl mb-8">A passionate full-stack developer and AI enthusiast crafting beautiful web experiences</p>
           <Button size="lg" asChild>
             <a href="#contact">Get in touch</a>
           </Button>
@@ -57,18 +57,18 @@ export default function Portfolio() {
             {[1, 2, 3].map((project) => (
               <div key={project} className="bg-card rounded-lg overflow-hidden shadow-lg">
                 <img 
-                  src={`https://source.unsplash.com/random/800x600?technology&sig=${project}`} 
+                  src={`https://mlconf.com/wp-content/uploads/2023/11/ai-ml.png`} 
                   alt={`Project ${project}`} 
                   className="w-full h-48 object-cover" 
                 />
                 <div className="p-6">
                   <h3 className="text-xl font-semibold mb-2">Project {project}</h3>
-                  <p className="text-muted-foreground mb-4">A brief description of the project and its main features.</p>
+                  <p className="text-muted-foreground mb-4">Water Quality Monitoring System</p>
                   <div className="flex justify-between items-center">
                     <a href="#" className="text-primary hover:underline flex items-center">
                       View Project <ExternalLink className="ml-1 h-4 w-4" />
                     </a>
-                    <a href="#" className="text-primary hover:underline flex items-center">
+                    <a href="https://github.com/taurtk/" className="text-primary hover:underline flex items-center">
                       <Github className="mr-1 h-5 w-5" /> GitHub
                     </a>
                   </div>
@@ -85,7 +85,7 @@ export default function Portfolio() {
           <div className="flex flex-col md:flex-row items-center gap-12">
             <div className="md:w-1/2">
               <img 
-                src="https://source.unsplash.com/random/400x400?portrait" 
+                src="https://drive.google.com/file/d/0BxeUJvA8V4PnSHVqNklYb1NBc0JKcnlDeTFDMlZOR1FYSnRz/view?usp=sharing&resourcekey=0-urN6FBosdAciAW3gKNZTbg" 
                 alt="Jane Doe" 
                 className="rounded-full w-64 h-64 object-cover mx-auto shadow-lg" 
               />
@@ -99,13 +99,13 @@ export default function Portfolio() {
                 When I'm not coding, you can find me exploring new technologies, contributing to open-source projects, or enjoying a good book on software architecture.
               </p>
               <div className="flex space-x-4">
-                <a href="#" className="text-primary hover:text-primary/80 transition-colors">
+                <a href="https://github.com/taurtk" className="text-primary hover:text-primary/80 transition-colors">
                   <Github className="h-6 w-6" />
                 </a>
-                <a href="#" className="text-primary hover:text-primary/80 transition-colors">
+                <a href="https://www.linkedin.com/in/taufique-khan-9553a6337/" className="text-primary hover:text-primary/80 transition-colors">
                   <Linkedin className="h-6 w-6" />
                 </a>
-                <a href="#" className="text-primary hover:text-primary/80 transition-colors">
+                <a href="taurtk@gmail.com" className="text-primary hover:text-primary/80 transition-colors">
                   <Mail className="h-6 w-6" />
                 </a>
               </div>
@@ -141,7 +141,7 @@ export default function Portfolio() {
       {/* Footer */}
       <footer className="bg-muted py-8">
         <div className="container mx-auto px-4 text-center text-muted-foreground">
-          <p>&copy; {new Date().getFullYear()} Jane Doe. All rights reserved.</p>
+          <p>&copy; {new Date().getFullYear()} Taufique Khan. All rights reserved.</p>
         </div>
       </footer>
     </div>
